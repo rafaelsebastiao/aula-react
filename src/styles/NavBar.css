@@ -1,0 +1,17 @@
+.navigation-bar{
+    background-color: #10031d;
+    color:aliceblue;
+    height:60px;
+    display: flex;
+    align-items: center;
+}
+
+
+ul{
+    gap: 20px;
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    font-size:24px;
+}
