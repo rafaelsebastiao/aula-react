@@ -1,9 +1,11 @@
-import style from './HeaderComponent.module.css';
+import style from '../styles/HeaderComponent.module.css';
+import logo from '../assets/icone-logo.png'
 
 export function HeaderComponent(){
     return(
-        <header >
-            <h1 className={style.header}>Cabeçalho</h1>
+        <header className={style.header}>
+            <h1>Cabeçalho</h1>
+            <img src={logo} />
         </header>
     )
 }

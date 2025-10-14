@@ -1,19 +1,22 @@
+import { Inicial } from './pages/Inicial'
 import './App.css'
+import { NavBarComponent } from './components/NavBarComponent'
 
-import {HeaderComponent} from './components/HeaderComponent'
-import {NavBarComponent} from './components/NavBarComponent'
-import {MainComponent} from './components/MainComponent'
+
+import { BrowserRouter } from 'react-router-dom'
+import { MyRoutes } from './routes/MyRoutes'
+
+
+
 function App() {
 
   return (
-    <>
-      <HeaderComponent />
-      <NavBarComponent />
-      <MainComponent />
-    </>
-
+      <BrowserRouter>
+        <MyRoutes />
+      </BrowserRouter>
   )
 }
+
 
 
 export default App
