@@ -1,9 +1,14 @@
 .container{
-    background-color: #c98fff;
+    background-color: #F2F2F2;
     color:#252323;
+    height:80vh;
 
 }
 
+
+p{
+    margin:10px;
+}
 
 .title{
     color: #252323;

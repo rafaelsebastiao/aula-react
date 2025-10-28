@@ -1,15 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-.header{
-    display: flex;
-    
-    justify-content: center;
-    align-items: center;
-    /* padding:10px; */
-    /* border:solid; */
-    
+.footer{
+    background-color: #733636;
     font-family: 'Roboto';
     color:white;
-    background-color: #304673;
+    height:10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+
+
+.footer>p{
+    font-size:1.3em;
+    font-weight: bolder;
+}
