@@ -2,7 +2,6 @@
 
 
 
-
 .text{
     margin:10px;
     font-family: "Poppins";
@@ -11,10 +10,5 @@
 .title{
     font-family: "Cinzel";
     color: #252323;
-}
-
-
-.image{
-    min-width: 100px;
-    max-height:100px;
+    width:50%;
 }
