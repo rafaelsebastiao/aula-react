@@ -1,9 +1,9 @@
-import style from  '../styles/MainComponent.module.css';
+import style from  '../styles/components/MainComponent.module.css';
 
-export function MainComponent(){
+export function MainComponent({children}){
     return(
         <main className={style.container}>
-            <h2 className={style.subtitle}>Conteúdo</h2>
+            {children}
         </main>
     )
 }

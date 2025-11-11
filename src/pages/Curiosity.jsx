@@ -1,18 +1,19 @@
-import style from '../styles/Curiosity.module.css'
+import { MainComponent } from '../components/MainComponent'
+import style from '../styles/pages/Curiosity.module.css'
 
 export function Curiosity(){
     return(
-        <main className={style.container}>
+        <MainComponent>
             <h2 className={style.title}>Curiosidades</h2>
-            <ul>
+            <ul className={style.text}>
                 <li>Início na arte: Araki começou a desenhar mangás na quarta série, aos 9 anos, após um amigo elogiar seus desenhos.</li>
-            </ul>
-            
+            </ul>  
             <ul>
                 <li>a</li>
                 <li>b</li>
             </ul>
-        </main>
+        </MainComponent>
+       
     )
 
 }

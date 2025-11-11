@@ -1,4 +1,4 @@
-import style from '../styles/HeaderComponent.module.css';
+import style from '../styles/components/HeaderComponent.module.css';
 
 export function HeaderComponent(){
     return(
